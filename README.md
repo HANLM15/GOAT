@@ -41,5 +41,5 @@ The `GOAT_exp` directory contains experiments on the IEMOCAP dataset, where 5,53
 - `baseline/Tmodel.py`: File containing the text-modal model definition for baseline.
 - `baseline/Mmodel.py`: File containing the multimodal model definition for baseline.
 - `baseline/Mutils.py`: Various utility methods used in baseline.
-- **`main.py`**: Main program of baseline for running experiments.
+- **`baseline/main.py`**: Main program of baseline for running experiments.
 
