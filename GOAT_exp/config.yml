@@ -1,0 +1,38 @@
+exp:
+  seed: 53
+  # seed: 3407
+  # seed: 215
+  # seed: 2019
+  audio_dir: "/mnt/cxh10/database/hanlm/SSLER/emotion2vec_iemocap"
+  text_dir: "/mnt/cxh10/database/hanlm/SSLER/bert_iemocap_wordlevel"
+  iemocap_csv: "/mnt/cxh10/database/hanlm/SSLER/iemocap_csv"
+
+train:
+  batch_size: 128
+  optimizer: 
+    lr: 0.0005
+    # max_lr: 0.001
+    # milestones: [16,32,48]
+    # weight_decay: 0.0001
+    # step_size_up: 10
+  epoch: 70
+
+# cmd:
+#   n_jie: 5
+
+# CA:
+#   attention_dim: 128
+
+model:
+  text_feat_dim: 768
+  audio_feat_dim: 768
+  hidden_dim: 256
+  # hidden_dim2: 64
+  num_classes: 4
+  num_heads: 2
+  # dropout: 0.5
+  num_layers: 2
+  direction: 2
+  hidden_size1: 128
+  hidden_size2: 128
+  attention_size: 4
